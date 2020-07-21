@@ -10,6 +10,9 @@ import javax.persistence.Id;
 @Entity
 public class Categoria implements Serializable {
 
+	public Categoria() {
+	}
+
 	private static final long serialVersionUID = 1;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
